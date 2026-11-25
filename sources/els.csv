@@ -1,0 +1,10 @@
+path,url,from,sha256,crc,bytes
+inputs/private/raw/els/ELS_2002-12_v1_0_CSV_Datasets.zip,https://nces.ed.gov/EDAT/Data/Zip/ELS_2002-12_v1_0_CSV_Datasets.zip,,b255f2c1821618cd7039f5ab7c4e6ed92caa536598cffc383b4f012deba411fb,814424038,101722813
+inputs/private/raw/els/els_02_12_byf3stu_v1_0.csv,,inputs/private/raw/els/ELS_2002-12_v1_0_CSV_Datasets.zip,2708cae4f421951cf6f443b1c944e705f46f378c4dfae6cbe8519a9f572f23f1,533714651,383260256
+inputs/private/raw/els/els_02_12_byf1sch_v1_0.csv,,inputs/private/raw/els/ELS_2002-12_v1_0_CSV_Datasets.zip,6df729ac5d2608204bc965ff58800a2b988084f4187c3c110fa818c1a70d8b01,1461580987,4880323
+inputs/private/raw/els/ELS_2002-12_PETS_v1_0_Student_BRR_CSV_Datasets.zip,https://nces.ed.gov/EDAT/Data/Zip/ELS_2002-12_PETS_v1_0_Student_BRR_CSV_Datasets.zip,,019002a44f547dc44f03df024939b27c001219f3af401c8a59fa21863f67ecc0,2434707413,134116641
+inputs/private/raw/els/els_02_12_byf3stubrr_v1_0.csv,,inputs/private/raw/els/ELS_2002-12_PETS_v1_0_Student_BRR_CSV_Datasets.zip,7f20d52e8bd8d017e2f5a268dd9f2cc2cf68f295c66052a5c8a7d3cca1e86a59,1811909215,377182549
+inputs/public/raw/els_docs/2004405.pdf,https://nces.ed.gov/pubs2004/2004405.pdf,,af28f1cc9d91b9f67269fb3009ab269bc746de3572e782b1759f3cb59771e161,3602344370,3076889
+inputs/public/raw/els_docs/2006344.pdf,https://nces.ed.gov/pubs2006/2006344.pdf,,0e2dea9236a2a766635e6d20d5d5d30df2d1bddedc123c71c29163435f036aa1,1786524095,4269797
+inputs/public/raw/els_docs/2006344_4.pdf,https://nces.ed.gov/pubs2006/2006344_4.pdf,,d97d18706978a81765ec0deb9cc0b706b7e4bfa1c19622846a3f4f77b8217be2,444894049,2989113
+inputs/public/raw/els_docs/2014364.pdf,https://nces.ed.gov/pubs2014/2014364.pdf,,5b897f7d252eb8529ac492350d93b7c675576af66e6dbcafea1a15d63e8deeed,2895427292,1296524

@@ -1,0 +1,8 @@
+path,url,from,sha256,crc,bytes
+inputs/private/raw/hsls/HSLS_2016_v1_0_CSV_Datasets.zip,https://nces.ed.gov/EDAT/Data/Zip/HSLS_2016_v1_0_CSV_Datasets.zip,,a4de968eefbac25a2b6f7337931f8c8051ddfcd2fd82920041a3c8abbebbd4aa,3351833931,270598630
+inputs/private/raw/hsls/hsls_16_student_v1_0.csv,,inputs/private/raw/hsls/HSLS_2016_v1_0_CSV_Datasets.zip,023095d8f430952a7704fe45708f0775ff8149b8893db3d868b10ae189de1018,1791336068,796814173
+inputs/private/raw/hsls/hsls_09_school_v1_0.csv,,inputs/private/raw/hsls/HSLS_2016_v1_0_CSV_Datasets.zip,0105f5ba341b77f61f4796b5b77900a6ac377a6870ef54dc114088bd72b088aa,1350199328,2554266
+inputs/public/raw/hsls_docs/2011328_1.pdf,https://nces.ed.gov/surveys/hsls09/pdf/2011328_1.pdf,,888a17c972d8d38350f6084be06fce251666cca9ecba22f2af1359400e8faca9,2276577402,6533607
+inputs/public/raw/hsls_docs/2011328_2.pdf,https://nces.ed.gov/surveys/hsls09/pdf/2011328_2.pdf,,9ad7520cca392a38d392ec29c486c4f1e16f30e8e122bbe02b8c64bf9775cf22,629849654,6857638
+inputs/public/raw/hsls_docs/2014361_AppendixI.pdf,https://nces.ed.gov/pubs2014/2014361_AppendixI.pdf,,7d5588edb241faa3dc3b15d83bee9de3196bb6b5fc7f4ef6e686560f5702c286,1162575862,12336972
+inputs/public/raw/hsls_docs/2018140.pdf,https://nces.ed.gov/pubs2018/2018140.pdf,,d5a9bef3822b76a964bf5b1ddd095bfbbbea4eb87330a88eb1b050951f6e837b,849043046,2277721
