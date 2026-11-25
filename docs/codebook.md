@@ -1,7 +1,7 @@
 # HSLS:09 codebook
 
 This codebook lists the variables in each project's
-`inputs/private/final/hsls_clean.csv`, one row per student (23,503 students).
+`inputs/final/hsls_clean.csv`, one row per student (23,503 students).
 Counts are unweighted. The cleaning scripts build the file from
 `data_spec/hsls.csv`, and `docs/missing-data.md` explains the reserve codes.
 
