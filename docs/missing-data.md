@@ -16,7 +16,7 @@ them differently.
   suppressed on the public-use file. An analysis imputes these values or
   models them.
 
-The two groups are this project's handling rules, built on the NCES code
+The two groups are the series's handling rules, built on the NCES code
 definitions below. The cleaning scripts turn both into missing values. For
 the gates that matter in this series, a flag records which group applies.
 
@@ -37,10 +37,11 @@ applicable" and the other codes as "item missing."
 | −8 | Unit nonresponse: the whole survey is missing | Nonresponse |
 | −9 | Item nonresponse | Nonresponse |
 
-## Crosswalk columns
+## Data spec columns
 
-`crosswalks/hsls_crosswalk.csv` lists each variable's codes by kind. The R,
-Python, and Stata projects read it from this repository at `shared/`.
+`data_spec/hsls.csv` lists each variable's codes by kind. The R, Python, and
+Stata projects include the shared repository at `shared/` and read the file at
+`shared/data_spec/hsls.csv`.
 
 - `missing` lists nonresponse codes. A code set comes from the variable's
   NCES value labels. Some positive codes also mean nonresponse, such as 98
@@ -91,7 +92,7 @@ gate question itself went unanswered.
   exactly the students with a panel weight `W2W1STU` above 0.
 - **Labeled codes only.** The SES composite and the self-efficacy scale have
   real negative values. 10,863 students have SES below 0. Only the codes in
-  the crosswalk become missing.
+  the data spec become missing.
 - **Code meanings by wave.** The base-year documentation (NCES 2011-328)
   defines −8 as "nonrespondent or component not applicable." The second
   follow-up splits that meaning between −8 and −6. On base-year variables, −8
@@ -103,7 +104,7 @@ gate question itself went unanswered.
 - **Positive codes.** Several items use positive codes for "Don't know," such
   as 11 on base-year educational expectations (`X1STUEDEXPCT`) and 13 on the
   first follow-up version (`X2STUEDEXPCT`). Parent occupation uses 98 ("Don't
-  know") and 99 ("Uncodeable"). New crosswalk rows need a check of each
+  know") and 99 ("Uncodeable"). New data spec rows need a check of each
   variable's labels.
 
 ## SES imputation
@@ -130,9 +131,9 @@ without a base-year student survey.
 
 ## Sources
 
-The fetch scripts download these PDFs to `inputs/public/raw/hsls_docs/`. The
-data catalog lists each one with its SHA-256. `docs/codebook.md` covers the
-variables this series uses.
+Each project's fetch script downloads these PDFs to
+`inputs/public/raw/hsls_docs/`. `data_locations.csv` lists each PDF with its
+SHA-256. `docs/codebook.md` covers the variables this series uses.
 
 - [HSLS:09 Base-Year to Second Follow-Up Data File Documentation (NCES 2018-140)](https://nces.ed.gov/pubs2018/2018140.pdf).
   Section 7.4, table 38: reserve codes.
