@@ -132,7 +132,7 @@ without a base-year student survey.
 ## Sources
 
 Each project's fetch script downloads these PDFs to
-`inputs/public/raw/hsls_docs/`. `data_locations.csv` lists each PDF with its
+`inputs/raw/hsls_docs/`. `data_locations.csv` lists each PDF with its
 SHA-256. `docs/codebook.md` covers the variables this series uses.
 
 - [HSLS:09 Base-Year to Second Follow-Up Data File Documentation (NCES 2018-140)](https://nces.ed.gov/pubs2018/2018140.pdf).
